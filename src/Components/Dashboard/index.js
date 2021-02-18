@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
 //USe Hooks to load change state
-
 function Dashboard(props) {
   const [count, setCount] = useState(0);
 
@@ -16,8 +15,8 @@ function Dashboard(props) {
 
   return (
   <div>
-    <button onClick={handleClick}>{`Click Me ${props.user}`}</button>
-    <p>You clicked {count} times</p>
+    {/* <button onClick={handleClick}>{`Click Me ${props.user}`}</button>
+    <p>You clicked {count} times</p> */}
   </div>
   )
 }
