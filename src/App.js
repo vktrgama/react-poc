@@ -45,7 +45,7 @@ function App() {
         <Route path="/dashboard">
           <Dashboard user={user} />
         </Route>
-        <Route path="/projects">
+        <Route path="/movies">
           <Projects />
         </Route>
       </Switch>
