@@ -4,10 +4,11 @@ import React from "react";
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
+  // Link
 } from "react-router-dom";
 import Dashboard from './Components/Dashboard'
+import Projects from './Components/Projects'
 
 function App() {
   const user = 'Victor';
@@ -44,6 +45,9 @@ function App() {
         <Route path="/dashboard">
           <Dashboard user={user} />
         </Route>
+        <Route path="/projects">
+          <Projects />
+        </Route>
       </Switch>
     </div>
   </Router>
@@ -74,7 +78,6 @@ function Home() {
               </div>
           </div>
         </div>
-
         <div class="container well well__ins3">
           <div class="row">
               <div class="grid_3 wow fadeInUp" data-wow-delay=".2s">
