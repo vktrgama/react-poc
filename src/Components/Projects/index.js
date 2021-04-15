@@ -1,6 +1,7 @@
 import React from 'react';
 import { useQuery, gql } from '@apollo/client';
 import Loader from '../loader'
+import Slider from '../NetflixSlider'
 
 /** MOVIES gql query to retreive upcominfMoves  */
 //TODO: move to a separate file for gql queries
@@ -20,11 +21,18 @@ function Projects(props) {
   const { loading, error, data } = useQuery(MOVIES);
 
   return (
-  <Loader error={error} loading={loading} data={data}>
-      {data?.upcomingMovies?.map((movie, index) => (
-          <p>{movie.original_title}</p>
-        ))}
-  </Loader>
+    <div class="container well">
+      <div class="row">
+        <Loader error={error} loading={loading} data={data}>
+          <Slider>
+              {data?.upcomingMovies?.map((movie, index) => (
+                <Slider.Item movie={movie} key={movie.id}>item1</Slider.Item>
+              ))}
+          </Slider>
+        </Loader>
+      </div>
+      
+    </div>
   )
 }
 
