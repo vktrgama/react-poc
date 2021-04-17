@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Dashboard from './Components/Dashboard'
 import Projects from './Components/Projects'
+import Notes from './Components/Notes'
 
 function App() {
   const user = 'Victor';
@@ -27,14 +28,6 @@ function App() {
           <Link to="/dashboard">Dashboard</Link>
         </li>
       </ul> */}
-
-      {/*
-        A <Switch> looks through all its children <Route>
-        elements and renders the first one whose path
-        matches the current URL. Use a <Switch> any time
-        you have multiple routes, but you want only one
-        of them to render at a time
-      */}
       <Switch>
         <Route exact path="/">
           <Home />
@@ -45,6 +38,9 @@ function App() {
         <Route path="/dashboard">
           <Dashboard user={user} />
         </Route>
+        <Route path="/notes">
+          <Notes />
+        </Route>
         <Route path="/movies">
           <Projects />
         </Route>
@@ -53,9 +49,6 @@ function App() {
   </Router>
   );
 }
-
-// You can think of these components as "pages"
-// in your app.
 
 function Home() {
   return (

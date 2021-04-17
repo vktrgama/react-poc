@@ -14,7 +14,7 @@ function Dashboard(props) {
   }
 
   return (
-  <div>
+    <div class="container well">
     <button onClick={handleClick}>{`Click Me ${props.user}`}</button>
     <p>You clicked {count} times</p>
   </div>
