@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# This is my POC React App
 
-This is a POC project to evaluate the following:
+POC project created to evaluate the following:
+
 - GraphQL implementation: 
    - Extract data from an external API (Movie's Library) and present as a carousel in React
 - AWS GraphQL
@@ -8,7 +9,6 @@ This is a POC project to evaluate the following:
 - AWS Authentication
    - Implemnent AWS Authentication 
 - State management with Hooks
-- 
 
 # Getting Started with Create React App
 
