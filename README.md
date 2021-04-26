@@ -1,5 +1,17 @@
 # Getting Started with Create React App
 
+This is a POC project to evaluate the following:
+- GraphQL implementation: 
+   - Extract data from an external API (Movie's Library) and present as a carousel in React
+- AWS GraphQL
+   - Implemnent AWS GraphQL to read and update data from a Dynamo DB
+- AWS Authentication
+   - Implemnent AWS Authentication 
+- State management with Hooks
+- 
+
+# Getting Started with Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
