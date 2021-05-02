@@ -5,13 +5,14 @@ import {
   BrowserRouter as Router,
   Switch,
   Route
-  // Link
 } from "react-router-dom";
 import Home from './Components/Home';
 import Dashboard from './Components/Dashboard';
 import Projects from './Components/Projects';
 import Notes from './Components/Notes';
 import About from './Components/About';
+import Header from './Components/Header'
+import Footer from './Components/Footer'
 
 function App() {
   const user = 'Victor';
@@ -19,6 +20,7 @@ function App() {
   return (
     <div class="page">
       <Router>
+          <Header />
           <Switch>
             <Route exact path="/">
               <Home />
@@ -32,10 +34,11 @@ function App() {
             <Route path="/notes">
               <Notes />
             </Route>
-            <Route path="/movies">
+            <Route path="/projects">
               <Projects />
             </Route>
           </Switch>
+          <Footer />
       </Router>
     </div>
   );

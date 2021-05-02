@@ -1,28 +1,22 @@
-import Header from '../Header'
-import Footer from '../Footer'
 
 function Home() {
     return (
         <>
-            <Header />
             <section id="content" class="content">
                 <div class="container well__ins1 well__ins2">
                     <div class="row">
                         <div class="grid_12">
-                            <h2 class="wow fadeInLeft">About Me</h2>
-                            <h3 class="hdng wow fadeInRight">I have an extensive experience in the development of diverse software solutions for a variety of architectures and platforms, well familiar with Full-Stack frameworks and Object Oriented Programming over a variety of development methodologies, like Agile and Scrum.</h3>
+                            <h2 class="wow fadeInLeft">Recent Experience</h2>
+                            <p>&nbsp;</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="grid_12">
+                            <h3 class="wow fadeInLeft">Ancestry.com</h3>
                         </div>
                     </div>
                 </div>
                 <div class="container">
-                    <div class="row">
-                        <div class="grid_12">
-                            <h2 class="wow fadeInLeft">Ancestry.com</h2>
-                            <h3> current job</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="container well well__ins3">
                     <div class="row">
                         <div class="grid_3 wow fadeInUp" data-wow-delay=".2s">
                             <div class="box center">
@@ -63,7 +57,6 @@ function Home() {
                     </div>
                 </div>
             </section>
-            <Footer />
         </>        
     );
   }

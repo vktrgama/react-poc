@@ -1,37 +1,13 @@
+import Splash from "../Header/Splash";
+import { useLocation } from 'react-router-dom';
+
 function Header() {
+    const location = useLocation();
+    let showSplash = location.pathname === "/" && <Splash />;
+
     return (
         <header id="header" class="header">
-            <div class="hdr-wrap">
-                <div id="camera" class="camera-wrap">
-                    <div data-src="images/index_slide01.jpg">
-                        <div class="camera_caption fadeIn">
-                            <h2 class="wow fadeInLeft" data-wow-delay=".4s">
-                                Victor Gama
-                            </h2>
-                            <p class="wow fadeInRight" data-wow-delay=".8s">Staff Engineer</p>
-                            <div class="wow fadeInUp" data-wow-delay="2s">
-                                <a class="btn1" href="#">more info</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div data-src="images/index_slide02.jpg">
-                        <div class="camera_caption fadeIn">
-                            <h2 class="wow fadeInLeft" data-wow-delay=".4s">
-                                Career Experience
-                            </h2>
-                            <p class="wow fadeInRight" data-wow-delay=".8s">Full Stack Engineering</p>
-                            <div class="wow fadeInUp" data-wow-delay="2s">
-                                <a class="btn1" href="#">more info</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="logo">
-                    <embed src="images/logo.svg" />
-                </div>
-            </div>
-
+            {showSplash}
             <div id="stuck_container" class="stuck_container">
                 <div class="container">
                     <div class="row">
@@ -52,7 +28,7 @@ function Header() {
                                         
                                     </li>
                                     <li>
-                                        <a href="/movies">Projects</a>
+                                        <a href="/projects">Projects</a>
                                     </li>
                                     <li>
                                         <a href="#">Contact</a>

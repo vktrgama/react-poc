@@ -21,21 +21,21 @@ function Notes() {
     }
 
     async function createNote() {
-    if (!formData.name || !formData.description) return;
-    await API.graphql({ query: createNoteMutation, variables: { input: formData } });
-    setNotes([ ...notes, formData ]);
-    setFormData(initialFormState);
+        if (!formData.name || !formData.description) return;
+        await API.graphql({ query: createNoteMutation, variables: { input: formData } });
+        setNotes([ ...notes, formData ]);
+        setFormData(initialFormState);
     }
 
     async function deleteNote({ id }) {
-    const newNotesArray = notes.filter(note => note.id !== id);
-    setNotes(newNotesArray);
-    await API.graphql({ query: deleteNoteMutation, variables: { input: { id } }});
+        const newNotesArray = notes.filter(note => note.id !== id);
+        setNotes(newNotesArray);
+        await API.graphql({ query: deleteNoteMutation, variables: { input: { id } }});
     }
 
     return (
     <div class="container well">
-        <h1>My Notes App</h1>
+        <h1>My Notes App in AWS graphQL</h1>
         <input
         onChange={e => setFormData({ ...formData, 'name': e.target.value})}
         placeholder="Note name"
