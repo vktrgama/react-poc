@@ -27,7 +27,7 @@ function Header() {
                                     <li>
                                         {linkAbout}
                                         <ul>
-                                        <li><a href="#">coming soon</a></li>
+                                        <li><a href="#">More to come</a></li>
                                         </ul> 
                                         
                                     </li>
