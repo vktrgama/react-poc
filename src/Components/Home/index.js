@@ -56,6 +56,50 @@ function Home() {
                         </div>
                     </div>
                 </div>
+
+                <div class="bg1 well__ins3 well__ins2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="grid_12">
+                                <h2 class="wow fadeInLeft">Recommendations</h2>
+                            </div>
+                            <div class="grid_12">
+                                <div class="img-wrap center">
+                                    <div class="img-cnt wow bounceIn mg-add" data-wow-delay=".4s"><img src="images/index_img02.jpg" alt="" /></div>
+                                    <div class="img-cnt wow bounceIn mg-add" data-wow-delay=".2s"><img src="images/index_img03.jpg" alt="" /></div>
+                                    <div class="img-cnt wow bounceIn mg-add" data-wow-delay=".6s"><img src="images/index_img04.jpg" alt="" /></div>
+                                </div>
+                                <div id="owl" class="owl wow fadeInUp">
+                                    <div class="item">
+                                        <blockquote class="quote">
+                                            <h4 class="quote_aside"><a href="#">Robert Adams</a></h4>
+                                            <p class="quote_cnt">
+                                                “Mulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptaum zzelenit augue duis dolore te feugait nulla facilisi. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem vestigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus”
+                                            </p>
+                                        </blockquote>
+                                    </div>
+                                    <div class="item">
+                                        <blockquote class="quote">
+                                            <h4 class="quote_aside"><a href="#">Monica Perry</a></h4>
+                                            <p class="quote_cnt">
+                                                “Veugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptaum zzelenit augue duis dolore te feugait nulla facilisi. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem vestigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus”
+                                            </p>
+                                        </blockquote>
+                                    </div>
+                                    <div class="item">
+                                        <blockquote class="quote">
+                                            <h4 class="quote_aside"><a href="#">Johm Smith</a></h4>
+                                            <p class="quote_cnt">
+                                                “Aeat vero eros et accumsan et iusto odio dignissim qui blandit praesent luptaum zzelenit augue duis dolore te feugait nulla facilisi. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem vestigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus”
+                                            </p>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </section>
         </>        
     );
