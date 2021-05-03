@@ -1,5 +1,9 @@
 import Splash from "../Header/Splash";
 import { useLocation } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+
+const linkAbout = <NavLink to="/about">About</NavLink>;
+const linkProjects = <NavLink to="/projects">Projects</NavLink>;
 
 function Header() {
     const location = useLocation();
@@ -21,14 +25,14 @@ function Header() {
                                         <a href="./">Home</a>
                                     </li>
                                     <li>
-                                        <a href="/about">About</a>
+                                        {linkAbout}
                                         <ul>
                                         <li><a href="#">coming soon</a></li>
                                         </ul> 
                                         
                                     </li>
                                     <li>
-                                        <a href="/projects">Projects</a>
+                                        {linkProjects}
                                     </li>
                                     <li>
                                         <a href="#">Contact</a>

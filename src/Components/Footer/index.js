@@ -1,3 +1,6 @@
+import { NavLink } from 'react-router-dom';
+
+const linkPolicy = <NavLink to="/">Private Policy</NavLink>;
 
 function Footer() {
     return (
@@ -9,8 +12,7 @@ function Footer() {
                             <h2><a href="./">Victor Gama</a></h2>
                         </div>
                         <div class="info">
-                            Copyright © <span id="copyright-year"></span> | <a href="index-5.html">Privacy Policy</a>
-                            {/* <!-- {%FOOTER_LINK} --> */}
+                            Copyright © <span id="copyright-year"></span> | {linkPolicy}
                         </div>
                     </div>
                 </div>
