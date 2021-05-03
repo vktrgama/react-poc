@@ -1,6 +1,6 @@
-# This is my POC React App
+# Vktr Gama personal site
 
-POC project created to evaluate the following:
+This is my POC React App created to evaluate different technologies:
 
 - GraphQL implementation: 
    - Extract data from an external API (Movie's Library) and present as a carousel in React
