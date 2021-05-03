@@ -10,7 +10,6 @@ This is my POC React App created to evaluate different technologies:
 - AWS GraphQL
    - Implemnent AWS GraphQL to read and update data from a Dynamo DB
 
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
