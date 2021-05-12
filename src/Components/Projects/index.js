@@ -3,6 +3,7 @@ import { useQuery, gql } from '@apollo/client';
 import Loader from '../Common/Loader/loader'
 import Slider from '../NetflixSlider'
 import { NavLink } from 'react-router-dom';
+import HandleState from './handle-state'
 
 /** MOVIES gql query to retreive upcominfMoves  */
 //TODO: move to a separate file for gql queries
@@ -49,6 +50,11 @@ function Projects(props) {
                 <h2 style={{fontSize: 30}} class="wow fadeInLeft">Implement AWS authentication and graphQL CRUD</h2>
                 <h1 style={{textAlign:"center"}}>{linkNotes} app</h1>
                 <span style={{visibility:'hidden'}}>(mike-2test@pp)</span>
+              </div>
+              <p>&nbsp;</p>
+              <div class="row">
+                <h2 style={{fontSize: 30}} class="wow fadeInLeft">State hanlding basic sample</h2>
+                <HandleState />
               </div>
           </div>
       </div>
