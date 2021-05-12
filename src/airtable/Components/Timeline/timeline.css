@@ -1,0 +1,48 @@
+
+.timeline-container {
+  border-bottom: 1px solid lightsteelblue;
+  height: 300px;
+  overflow-y: scroll;
+  position: relative;
+  z-index: 1;
+}
+
+.event-list {
+  top: 60px;
+  position: relative;
+}
+
+.month-block {
+  background-color: aliceblue;
+  border-bottom: 1px solid lightsteelblue;
+  height: 100%;
+  left: 200px;
+  position: absolute;
+  z-index: 2;
+  opacity: 0.5;
+  width: 400px;
+}
+
+.month-title {
+  background-color: lightsteelblue;
+  color: darkblue;
+  font-size: 14px;
+  padding: 3px;
+  text-align: center;
+}
+
+.month-dates {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: 90%;
+}
+
+.month-dates> div {
+  border-left: 1px solid cornflowerblue;
+  height: 100%;
+  padding: 3px;
+  text-align: center;
+  width: 30px;
+}

@@ -1,0 +1,11 @@
+
+.main {
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.app-title {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: rgb(18,131,218);
+}
