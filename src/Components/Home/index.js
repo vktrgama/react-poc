@@ -57,7 +57,6 @@ function Home() {
                         </div>
                     </div>
                 </div>
-
                 <div class="bg1 well__ins3 well__ins2">
                     <div class="container">
                         <div class="row">
@@ -101,7 +100,6 @@ function Home() {
                         </div>
                     </div>
                 </div>
-
             </section>
         </>        
     );
