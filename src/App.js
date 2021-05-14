@@ -8,7 +8,6 @@ import {
 import Home from './Components/Home';
 import Dashboard from './Components/Dashboard';
 import Projects from './Components/Projects';
-import Notes from './Components/Notes';
 import About from './Components/About';
 import Header from './Components/Header'
 import Footer from './Components/Footer'
@@ -29,9 +28,6 @@ function App() {
             </Route>
             <Route path="/dashboard">
               <Dashboard user={user} />
-            </Route>
-            <Route path="/notes">
-              <Notes />
             </Route>
             <Route path="/projects">
               <Projects />
