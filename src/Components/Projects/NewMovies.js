@@ -22,7 +22,6 @@ function NewMovies () {
 
     return (
         <>
-            <h2 style={{fontSize: 30}} class="wow fadeInLeft">Movie Slider implemented with graphQL</h2>
             <Loader error={error} loading={loading} data={data}>
             <Slider>
                 {data?.upcomingMovies?.map((movie, index) => (
