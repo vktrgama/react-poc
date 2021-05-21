@@ -11,6 +11,7 @@ import Projects from './Components/Projects';
 import About from './Components/About';
 import Header from './Components/Header'
 import Footer from './Components/Footer'
+import Sidebar from './Components/Sidebar';
 
 function App() {
   const user = 'Victor';
@@ -18,6 +19,7 @@ function App() {
   return (
     <div class="page">
       <Router>
+          <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
           <Header />
           <Switch>
             <Route exact path="/">

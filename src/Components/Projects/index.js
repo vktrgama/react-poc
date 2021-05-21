@@ -25,15 +25,15 @@ function Projects(props) {
           </div>
           <div class="project">
             <div class="row">
-                <div class="grid_8">
+                <div class="grid_12">
                     <div class="project_crdts">
                         <h5>Apollo Graphql</h5>
                         <span class="fa fa-calendar"></span> Date: <time datetime="2021-05-02">May, 02, 2021</time> <br />
                         <span class="fa fa-user"></span> Client: <a href="#">Sandbox</a> <br />
-                        <span class="fa fa-align-left"></span> Skills: <a href="#">graphQl</a>, <a href="#">AWS</a>, <a href="#">React</a>
+                        <span class="fa fa-align-left"></span> Skills: <a href="#">graphQL</a>, <a href="#">AWS</a>, <a href="#">React</a>
                     </div> 
                     <p>
-                        Set an AWS Amplify backend lambda service to pull data from an external source (<a href="https://api.themoviedb.org">The Movie DB</a>) and render in UI using a generic <a href="https://github.com/andrzejewsky/netflix-slider">Netflix slider</a>.
+                        Quick implementation of data consumption from graphQL, setup an AWS Amplify backend lambda, with schema configuration and data fetch from an external source (<a href="https://api.themoviedb.org">The Movie DB</a>) and render results using a generic React <a href="https://github.com/andrzejewsky/netflix-slider">Netflix slider</a>.
                     </p>
                     <pre class="lang-html s-code-block hljs xml">
                         <code>
