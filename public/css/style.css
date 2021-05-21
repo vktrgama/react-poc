@@ -249,6 +249,9 @@ p + .addr, .addr + .addr, .terms + .addr {
 }
 
 /*==================   Clearfix   ======================*/
+.bm-burger-button {
+  display: none;
+}
 .sf-menu:before, .sf-menu:after {
   content: " ";
   display: table;
@@ -292,9 +295,6 @@ p + .addr, .addr + .addr, .terms + .addr {
     line-height: 36px;
     right: 15px;
     bottom: 20px;
-  }
-  .bm-burger-button {
-    display: none;
   }
 }
 /*==================  Super Fish   ======================*/
