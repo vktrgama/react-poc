@@ -64,7 +64,7 @@
             "isDuration": "true",
             "title": "Avinon, Inc.",
             "image": "http://www.accents-n-art.com/artwork/M00279ss.jpg",
-            "text": "Software Engineer, participation in the development of a dynamic web services application that enabling a variaty of workflows. VB6, COM+, ASP, JavaScript, DHTML, XML, SOAP, Visual Source Safe, IIS 5, COM+, SQL Server 2000."
+            "text": "Software Engineer, development of dynamic web services that enabling a variaty of workflows. VB6, COM+, ASP, JavaScript, DHTML, XML, SOAP, Visual Source Safe, IIS 5, COM+, SQL Server 2000."
          },
          {
             "start": "Aug 2001",
@@ -73,14 +73,14 @@
             "end": "Sep 2004",
             "isDuration": "true",
             "title": "VADO, Inc.",
-            "text": "Software Engineer working as a consultant for several clients. C#, Office SDK, ASP.NET, ADO.NET, JavaScript, VBScript, DHTML, XML3.0, Index Server, IIS5, SQL Server 2000, Wise Solutions, VBScript, XML3.0, Windows Installer, SMS2.0, Oracle 9.02, MS Share Point Services."
+            "text": "Software Engineer working as a consultant for several clients. C#, Office SDK, ASP.NET, ADO.NET, JavaScript, VBScript, DHTML, XML3.0, Index Server, IIS5, SQL Server 2000, Wise Solutions, Windows Installer, SMS2.0, Oracle 9.02, and MS Share Point Services."
          },
          {
             "start": "Aug 2001",
             "end": "Feb 2003",
             "title": "ChevronTexaco, Inc.",
             "color": "Green",
-            "text": "Software Engineer, automation programming for software integration and distribution."
+            "text": "Software Engineer, automation programming for software integration and distribution, C#, ASP.NET, Wise Solutions, VBScript, XML3.0, Windows Installer, SMS2.0."
          },
          {
             "start": "2002",
@@ -93,7 +93,7 @@
             "end": "Oct 2003",
             "title": "E & J Gallo Winery, Inc.",
             "color": "Green",
-            "text": "Software Engineer, analysis and development of an intranet application to centralize documentation, administration and custom solutions for Microsoft Share Point, and development of diverse desktop applications."
+            "text": "Software Engineer, analysis and development of an intranet application to centralize documentation, administration and custom solutions for Microsoft Share Point, C#, ASP.NET, JavaScript, VBScript, Wise Solutions, Windows Installer, SMS2.0, and MS Share Point Services."
          },
          {
             "start": "2003",
@@ -106,7 +106,7 @@
             "end": "Feb 2004",
             "title": "Levi Strauss & Co.",
             "color": "Green",
-            "text": "Software Engineer, responsible for maintaining a manufacturing application, ensuring scalability and availability."
+            "text": "Software Engineer, responsible for maintaining a manufacturing application, ensuring scalability and availability. C#, ASP.NET, and Oracle."
          },
          {
             "start": "Feb 2004",
@@ -162,7 +162,7 @@
             "end": "2016",
             "title": "Ancestry.com",
             "color": "Red",
-            "text": "Senior Software Engineer, implementing solutions based in MVC, SQL Server, TFS, JQuery, AJAX, CSS 3.0, C#, TDD, Continous Integration, Chef Technologies."
+            "text": "Senior Software Engineer, delivering engaging applications for Ancestry customers to explore their Historical records and DNA Ethnicity, supporting responsive design for mobile, customer behavior tracking, AB testing, automated testing, and monitoring (Omniture/Mixpanel, Selenium, and NewRelic). C#, MVC, Rzor, Angular, JQuery, AJAX, CSS 3.0, TDD, SQL Server, TFS, Continous Integration, Chef Technologies."
          },
          {
             "start": "2016",
