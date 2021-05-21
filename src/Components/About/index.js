@@ -1,3 +1,5 @@
+import TimeLine from '../TimeLine';
+
 function About() {
     return (
       <div>
@@ -8,6 +10,7 @@ function About() {
                     <h3 class="hdng wow fadeInRight">I have an extensive experience in the development of diverse software solutions for a variety of architectures and platforms, well familiar with Full-Stack frameworks and Object Oriented Programming over a variety of development methodologies, like Agile and Scrum.</h3>
                 </div>
             </div>
+            <TimeLine />
           </div>
       </div>
     );

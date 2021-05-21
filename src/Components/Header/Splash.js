@@ -11,7 +11,7 @@ function Splash() {
                      <h2 class="wow fadeInLeft" data-wow-delay=".4s">
                         Victor Gama
                      </h2>
-                     <p class="wow fadeInRight" data-wow-delay=".8s">Staff Engineer</p>
+                     <p class="wow fadeInRight" data-wow-delay=".8s">Staff Software Engineer</p>
                      <div class="wow fadeInUp" data-wow-delay="2s">
                         {linkMoreInfo}
                      </div>

@@ -35,6 +35,10 @@ function Projects(props) {
                     <p>
                         Set an AWS Amplify backend lambda service to pull data from an external source (<a href="https://api.themoviedb.org">The Movie DB</a>) and render in UI using a generic <a href="https://github.com/andrzejewsky/netflix-slider">Netflix slider</a>.
                     </p>
+                    <pre class="lang-html s-code-block hljs xml">
+                        <code>
+                        </code>
+                    </pre>
                 </div>
                 <div class="grid_7"></div>
             </div>
