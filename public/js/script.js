@@ -91,7 +91,7 @@ $(document).ready(function () {
 /* Superfish menu
  ========================================================*/
 include('js/superfish.js');
-include('js/jquery.mobilemenu.js');
+// include('js/jquery.mobilemenu.js');
 
 /* Unveil
  ========================================================*/
