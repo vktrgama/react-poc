@@ -1,6 +1,7 @@
 import Splash from "../Header/Splash";
 import { useLocation } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
+import Navigation from './nav';
 
 const linkAbout = <NavLink to="/about">About</NavLink>;
 const linkProjects = <NavLink to="/projects">Projects</NavLink>;
@@ -19,30 +20,7 @@ function Header() {
                             <div class="hdr-brand">
                                 <h1><a href="./">Full Stack Engineering</a></h1>
                             </div>
-                            <nav class="nav">
-                                <ul class="sf-menu">
-                                    <li class="active">
-                                        <a href="./">Home</a>
-                                    </li>
-                                    <li>
-                                        {linkAbout}
-                                        <ul>
-                                        <li><a href="#">More to come</a></li>
-                                        </ul> 
-                                        
-                                    </li>
-                                    <li>
-                                        {linkProjects}
-                                    </li>
-                                    <li>
-                                        <a href="#">Contact</a>
-                                        <ul>
-                                        <li><a href="#">vktrgama
-                                            @gmail.com</a></li>
-                                        </ul> 
-                                    </li>
-                                </ul>
-                            </nav>
+                            <Navigation />
                         </div>
                     </div>
                 </div>
