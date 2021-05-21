@@ -31,46 +31,46 @@
             "text": "Software developer, working as a consultant for GBM Casa de Bolsa (Stock Exchange), Development in windows environments with Clipper, OpenSight, VB3.0, and Microsoft SQL Server."
          },
          {
-            "start": "Jan 5 1998",
-            "end": "Feb 26 1999",
+            "start": "998",
+            "end": "999",
             "isDuration": "true",
             "title": "Ingernieria de Soluciones",
             "text": "Software Developer, working as a consultant for Seguros Monterrey (Top Insurance company). VB5.0, Visual Interdev, Oracle, Access, IIS, and MTS."
          },
          {
-            "start": "Mar 17 1999",
+            "start": "1999",
             "latestStart": "Mar 17 1999",
             "earliestEnd": "May 21 2000",
-            "end": "May 21 2000",
+            "end": "2000",
             "isDuration": "true",
             "title": "Cotelligent, inc.",
             "text": "Formerly known as Global Resources, Inc. Working as a consultant for NetKey, Inc. responsible for the development of e-business applications for marketing Web kiosks. VB6, COM, DCOM, ASP, JavaScript, DHTML, XML, Visual Source Safe, IIS 4/5, MTS, SQL Server and Access."
          },
          {
-            "start": "May 22 2000",
+            "start": "May 2000",
             "latestStart": "May 22 2000",
             "earliestEnd": "Nov 10 2000",
-            "end": "Nov 10 2000",
+            "end": "Nov 2000",
             "isDuration": "true",
             "title": "Netkey, Inc.",
             "link": "http://www.netkey.com/",
             "text": "Software Engineer, responsible for the development of e-business applications for multi-channel websites and marketing Web kiosks.\n  VB6, COM, DCOM, ASP, JavaScript,  DHTML, XML, Visual Source Safe, IIS 4/5, MTS, SQL Server and Access."
          },
          {
-            "start": "Nov 13 2000",
+            "start": "Nov 2000",
             "latestStart": "Nov 13 2000",
             "earliestEnd": "Jun 6 2001",
-            "end": "Jun 6 2001",
+            "end": "Jun 2001",
             "isDuration": "true",
             "title": "Avinon, Inc.",
             "image": "http://www.accents-n-art.com/artwork/M00279ss.jpg",
             "text": "Software Engineer, participation in the development of a dynamic web services application that enabling a variaty of workflows. VB6, COM+, ASP, JavaScript, DHTML, XML, SOAP, Visual Source Safe, IIS 5, COM+, SQL Server 2000."
          },
          {
-            "start": "Aug 21 2001",
+            "start": "Aug 2001",
             "latestStart": "Aug 21 2001",
             "earliestEnd": "Sep 30 2004",
-            "end": "Sep 30 2004",
+            "end": "Sep 2004",
             "isDuration": "true",
             "title": "VADO, Inc.",
             "text": "Software Engineer working as a consultant for several clients. C#, Office SDK, ASP.NET, ADO.NET, JavaScript, VBScript, DHTML, XML3.0, Index Server, IIS5, SQL Server 2000, Wise Solutions, VBScript, XML3.0, Windows Installer, SMS2.0, Oracle 9.02, MS Share Point Services."
@@ -152,7 +152,7 @@
             "text": "University of Phoenix"
          },
          {
-            "start": "June 1 2013",
+            "start": "June 2013",
             "title": "Microsoft Certified Professional Front-End",
             "color": "Green",
             "text": "Programming in HTML5 and CSS3"

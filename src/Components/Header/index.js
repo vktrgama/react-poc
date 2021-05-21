@@ -1,10 +1,6 @@
 import Splash from "../Header/Splash";
 import { useLocation } from 'react-router-dom';
-import { NavLink } from 'react-router-dom';
 import Navigation from './nav';
-
-const linkAbout = <NavLink to="/about">About</NavLink>;
-const linkProjects = <NavLink to="/projects">Projects</NavLink>;
 
 function Header() {
     const location = useLocation();

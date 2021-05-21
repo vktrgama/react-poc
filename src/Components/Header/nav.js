@@ -1,10 +1,14 @@
+import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
+    const linkAbout = <NavLink to="/about">About</NavLink>;
+    const linkProjects = <NavLink to="/projects">Projects</NavLink>;
+
     return (
         <nav class="nav">
             <ul class="sf-menu">
                 <li class="active">
-                    <a href="./">Home</a>
+                    <a href="/">Home</a>
                 </li>
                 <li>
                     {linkAbout}
