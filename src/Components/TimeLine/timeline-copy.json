@@ -2,6 +2,42 @@
    "data": {
       "event": [
          {
+            "start": "1990",
+            "end": "1992",
+            "title": "Almacenadora Serfin, S.A.",
+            "text": "Programmer Jr., providing support to Accounting and Information Systems, programming in DBaseIII"
+         },
+         {
+            "start": "1992",
+            "title": "Triple I Sistemas de Informacion",
+            "text": "Programmer Jr., working in UNIX programming on Informix 4GL"
+         },
+         {
+            "start": "1993",
+            "title": "Graduate from University",
+            "color": "Red",
+            "text": "Bachelor's degree in Information Systems, Universidad ISEC, Mexico City."
+         },
+         {
+            "start": "1993",
+            "title": "TESS Electonica Administrativa",
+            "text": "Programmer, working with DbaseIV, Clipper, BorlandC++, and Advance Revelation."
+         },
+         {
+            "start": "1994",
+            "end": "1998",
+            "isDuration": "true",
+            "title": "Bufete de Asesores en Sistemas",
+            "text": "Software developer, working as a consultant for GBM Casa de Bolsa (Stock Exchange), Development in windows environments with Clipper, OpenSight, VB3.0, and Microsoft SQL Server."
+         },
+         {
+            "start": "1998",
+            "end": "1999",
+            "isDuration": "true",
+            "title": "Ingernieria de Soluciones",
+            "text": "Software Developer, working as a consultant for Seguros Monterrey (Top Insurance company). VB5.0, Visual Interdev, Oracle, Access, IIS, and MTS."
+         },
+         {
             "start": "1999",
             "latestStart": "Mar 17 1999",
             "earliestEnd": "May 21 2000",
