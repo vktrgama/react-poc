@@ -18,7 +18,7 @@ const Navigation = () => {
                     {linkProjects}
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="https://www.linkedin.com/in/vktrgama/" target='_new'>Contact</a>
                 </li>
             </ul>
         </nav>
