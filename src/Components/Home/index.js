@@ -6,7 +6,7 @@ function Home() {
                 <div class="container well__ins1 well__ins2">
                     <div class="row">
                         <div class="grid_12">
-                            <h2 class="wow fadeInLeft">Experience</h2>
+                            <h2 class="wow fadeInLeft">Latest Projects</h2>
                             <p>&nbsp;</p>
                         </div>
                     </div>

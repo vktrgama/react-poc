@@ -130,10 +130,17 @@
          },
          {
             "start": "2016",
-            "end": "2020",
+            "end": "2021",
             "title": "Ancestry.com",
             "color": "Red",
             "text": "Staff Software Engineer / Scrum Master, implementing large-scale single-page applications and enterprise software development with integration to cloud services. React, Node, Redux, JS ES6, Webpack, Jest, SASS, and Java. CI/CD with Jenkins, Docker, Harness, and Amazon Web Services (AWS). "
+         },
+         {
+            "start": "2021",
+            "end": "now",
+            "title": "ViacomCBS Streaming (PlutoTV)",
+            "color": "Red",
+            "text": "Lead Software Engineer, Participate in the design and architecture of modules for a software as a service solution, in NodeJs, Typescript, Postgresql, and AWS lambdas. Coding in our current solution to generate programming feeds for a wide range of partners and media devices, as well as our new and improved feeds-as-a-service solution, NodeJs, MongoDB, Typescript, Postgresql, and AWS. "
          }
       ]
    }
