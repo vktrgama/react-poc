@@ -190,7 +190,7 @@ module.exports = function (webpackEnv) {
             // initialization, it doesn't blow up the WebpackDevServer client, and
             // changing JS code would still trigger a refresh.
           ]
-        : paths.appIndexJs,
+        : path.join(__dirname, './src/index.js'), //TODO: restore to paths.appIndexJs, if needed, force routes for now
     output: {
       // The build folder.
       path: isEnvProduction ? paths.appBuild : undefined,
