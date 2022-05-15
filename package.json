@@ -2,6 +2,7 @@
   "name": "vktrgama",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://www.vktrgama.io/",
   "dependencies": {
     "@apollo/client": "^3.3.6",
     "@apollo/react-hooks": "^4.0.0",
