@@ -5,7 +5,7 @@ function Splash() {
 
     return (
       <div class="hdr-wrap">
-         <div id="camera" class="camera-wrap">
+         <div id="camera" class="camera_wrap">
             <div data-src="images/index_slide01.jpg">
                <div class="camera_caption fadeIn">
                      <h2 class="wow fadeInLeft" data-wow-delay=".4s">
